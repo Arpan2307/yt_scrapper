@@ -1,0 +1,6 @@
+Flask
+codeswitch
+emoji
+pandas
+google-api-python-client
+numpy
