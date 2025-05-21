@@ -60,7 +60,7 @@ def fetch_and_clean_comments(video_code, output_file):
     import string
     import emoji
     
-    DEVELOPER_KEY = ""  # <-- Replace with your API key
+    DEVELOPER_KEY = "AIzaSyD3emiSTH3PqUQnqYZdiCh33DZE72lpfEw"  # <-- Replace with your API key
     def remove_emojis(text):
         return emoji.replace_emoji(text, replace='')
     def clean_comment(comment):
