@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # Replace with your YouTube API Key
-DEVELOPER_KEY = "AIzaSyD3emiSTH3PqUQnqYZdiCh33DZE72lpfEw"
+DEVELOPER_KEY = ""  # <-- Replace with your API key
 # Replace with the video ID of the YouTube video
 VIDEO_ID = "7JcJo_gAUAM"
 

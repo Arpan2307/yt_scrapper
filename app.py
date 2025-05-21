@@ -3,6 +3,9 @@ import os
 import csv
 import tempfile
 import io
+import logging
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 # Import or copy logic from your existing scripts
 # For this example, we assume the following functions are available:
@@ -11,7 +14,9 @@ import io
 # - compute_code_mix_ratio_for_file(tagged_file, output_csv)
 
 # You will need to adapt your existing .py files into importable functions or copy their logic here.
+logging.basicConfig(level=logging.DEBUG)
 
+os.environ['NO_PROXY'] = '127.0.0.1'
 app = Flask(__name__)
 
 HTML_FORM = '''
@@ -178,4 +183,4 @@ def compute_code_mix_ratio_for_file(tagged_file, output_csv):
             writer.writerow([idx, tagged, f"{ratio:.2f}"])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=3000, )
