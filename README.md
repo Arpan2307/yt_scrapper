@@ -30,7 +30,7 @@ python app.py
 ```
 
 ### 6. Open in your browser
-Go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) and enter a YouTube video code to process.
+Go to [http://127.0.0.1:5000/](http://127.0.0.1:3000/) and enter a YouTube video code to process.
 
 ## File Structure
 - `app.py` - Main Flask application
