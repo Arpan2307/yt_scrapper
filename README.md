@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set up your YouTube Data API key
-- Open `app.py` and replace the value of `DEVELOPER_KEY` with your own [YouTube Data API v3 key](https://console.cloud.google.com/apis/dashboard).
+- Open `app.py` and replace the value of `DEVELOPER_KEY` (in line 63) with your own [YouTube Data API v3 key](https://console.cloud.google.com/apis/dashboard).
 
 ### 5. Download codeswitch models (first run)
 - The codeswitch library will automatically download the required models the first time you run the app.
