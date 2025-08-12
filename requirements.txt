@@ -4,3 +4,4 @@ emoji
 pandas
 google-api-python-client
 numpy
+torch
