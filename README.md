@@ -20,23 +20,23 @@ source env1/bin/activate
 ```
 
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### 3. Set up your YouTube Data API key
+### 4. Set up your YouTube Data API key
 - Open `app.py` and replace the value of `DEVELOPER_KEY` with your own [YouTube Data API v3 key](https://console.cloud.google.com/apis/dashboard).
 
-### 4. Download codeswitch models (first run)
+### 5. Download codeswitch models (first run)
 - The codeswitch library will automatically download the required models the first time you run the app.
 
-### 5. Run the Flask app
+### 6. Run the Flask app
 ```
 python app.py
 ```
 
-### 6. Open in your browser
+### 7. Open in your browser
 Go to [http://127.0.0.1:5000/](http://127.0.0.1:3000/) and enter a YouTube video code to process.
 
 ## File Structure
