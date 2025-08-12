@@ -13,6 +13,13 @@ This Flask web application allows you to input a YouTube video code and download
 
 ### 1. Clone the repository or copy the project files
 
+### 2. Create and activate a Virtual environment
+```
+python -m venv env1
+source env1/bin/activate
+```
+
+
 ### 2. Install dependencies
 ```
 pip install -r requirements.txt
